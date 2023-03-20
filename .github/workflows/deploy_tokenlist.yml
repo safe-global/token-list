@@ -3,7 +3,7 @@ name: Deploy Safe tokenlist
 on:
   release:
     types: [published]
-  workflow-dispatch:
+  workflow_dispatch:
     branches:
       - main
 
