@@ -3,11 +3,27 @@
   "timestamp": "2023-03-15T11:00:00+00:00",
   "version": {
     "major": 1,
-    "minor": 0,
+    "minor": 1,
     "patch": 0
   },
   "keywords": ["default", "list", "safe"],
   "tokens": [
+    {
+      "symbol": "COW",
+      "name": "CoW Protocol Token",
+      "address": "0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://safe-transaction-assets.safe.global/tokens/logos/0xDEf1CA1fb7FBcDC777520aa7f396b4E015F497aB.png"
+    },
+    {
+      "symbol": "COW",
+      "name": "CoW Protocol Token from Mainnet",
+      "address": "0x177127622c4a00f3d409b75571e12cb3c8973d3c",
+      "decimals": 18,
+      "chainId": 100,
+      "logoURI": "https://safe-transaction-assets.safe.global/tokens/logos/0x177127622c4A00F3d409B75571e12cB3c8973d3c.png"
+    },
     {
       "symbol": "SAFE",
       "name": "Safe Token",
@@ -15,6 +31,22 @@
       "decimals": 18,
       "chainId": 1,
       "logoURI": "https://safe-transaction-assets.safe.global/tokens/logos/0x5aFE3855358E112B5647B952709E6165e1c1eEEe.png"
+    },
+    {
+      "symbol": "vCOW",
+      "name": "CoW Protocol Virtual Token",
+      "address": "0xd057b63f5e69cf1b929b356b579cba08d7688048",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://safe-transaction-assets.safe.global/tokens/logos/0x5aFE3855358E112B5647B952709E6165e1c1eEEe.png"
+    },
+    {
+      "symbol": "vCOW",
+      "name": "CoW Protocol Virtual Token",
+      "address": "0xc20c9c13e853fc64d054b73ff21d3636b2d97eab",
+      "decimals": 18,
+      "chainId": 100,
+      "logoURI": "https://safe-transaction-assets.safe.global/tokens/logos/0xc20C9C13E853fc64d054b73fF21d3636B2d97eaB.png"
     }
   ]
 }
