@@ -1,10 +1,10 @@
 {
   "name": "SAFE",
-  "timestamp": "2023-03-15T11:00:00+00:00",
+  "timestamp": "2024-01-25T11:00:00+00:00",
   "version": {
     "major": 1,
     "minor": 1,
-    "patch": 0
+    "patch": 1
   },
   "keywords": ["default", "list", "safe"],
   "tokens": [
@@ -55,6 +55,14 @@
       "decimals": 18,
       "chainId": 137,
       "logoURI": "https://safe-transaction-assets.safe.global/tokens/logos/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270.png"
+    },
+    {
+      "symbol": "GBPe",
+      "name": "Monerium GBP emoney",
+      "address": "0x5cb9073902f2035222b9749f8fb0c9bfe5527108",
+      "decimals": 18,
+      "chainId": 100,
+      "logoURI": "https://safe-transaction-assets.safe.global/tokens/logos/0x5cb9073902f2035222b9749f8fb0c9bfe5527108.png"
     }
   ]
 }
