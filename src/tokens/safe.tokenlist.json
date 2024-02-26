@@ -63,6 +63,14 @@
       "decimals": 18,
       "chainId": 100,
       "logoURI": "https://safe-transaction-assets.safe.global/tokens/logos/0x5cb9073902f2035222b9749f8fb0c9bfe5527108.png"
+    },
+    {
+      "symbol": "OLAS",
+      "name": "Autonolas from Mainnet",
+      "address": "0xcE11e14225575945b8E6Dc0D4F2dD4C570f79d9f",
+      "decimals": 18,
+      "chainId": 100,
+      "logoURI": "https://assets.coingecko.com/coins/images/31099/standard/OLAS-token.png"
     }
   ]
 }
