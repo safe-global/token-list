@@ -71,6 +71,14 @@
       "decimals": 18,
       "chainId": 100,
       "logoURI": "https://assets.coingecko.com/coins/images/31099/standard/OLAS-token.png"
+    },
+    {
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+      "decimals": 6,
+      "chainId": 42161,
+      "logoURI": "https://safe-transaction-assets.safe.global/tokens/logos/0xdAC17F958D2ee523a2206206994597C13D831ec7.png"
     }
   ]
 }
