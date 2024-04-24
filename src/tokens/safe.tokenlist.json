@@ -71,6 +71,22 @@
       "decimals": 18,
       "chainId": 100,
       "logoURI": "https://assets.coingecko.com/coins/images/31099/standard/OLAS-token.png"
+    },
+    {
+      "symbol": "cUSDCv3",
+      "name": "Compound USDC",
+      "address": "0xc3d688b66703497daa19211eedff47f25384cdc3",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://etherscan.io/token/images/compound-usdc_28.png"
+    },
+    {
+      "symbol": "aUSDC",
+      "name": "Aave interest bearing USDC",
+      "address": "0xBcca60bB61934080951369a648Fb03DF4F96263C",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://etherscan.io/token/images/Aave_aUSDC_32.png"
     }
   ]
 }
