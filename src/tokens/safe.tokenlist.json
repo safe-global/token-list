@@ -67,10 +67,10 @@
     {
       "symbol": "OLAS",
       "name": "Autonolas from Mainnet",
-      "address": "0xcE11e14225575945b8E6Dc0D4F2dD4C570f79d9f",
+      "address": "0xce11e14225575945b8e6dc0d4f2dd4c570f79d9f",
       "decimals": 18,
       "chainId": 100,
-      "logoURI": "https://assets.coingecko.com/coins/images/31099/standard/OLAS-token.png"
+      "logoURI": "https://safe-transaction-assets.safe.global/tokens/logos/0xcE11e14225575945b8E6Dc0D4F2dD4C570f79d9f.png"
     },
     {
       "symbol": "cUSDCv3",
