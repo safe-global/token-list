@@ -4,7 +4,7 @@
   "version": {
     "major": 1,
     "minor": 3,
-    "patch": 0
+    "patch": 1
   },
   "keywords": ["default", "list", "safe"],
   "tokens": [
@@ -91,10 +91,10 @@
     {
       "symbol": "SAFE",
       "name": "Safe Token from Mainnet",
-      "address": "0xbcca60bb61934080951369a648fb03df4f96263c",
+      "address": "0x4d18815D14fe5c3304e87B3FA18318baa5c23820",
       "decimals": 18,
       "chainId": 100,
-      "logoURI": "https://safe-transaction-assets.safe.global/tokens/logos/0x5aFE3855358E112B5647B952709E6165e1c1eEEe.png"
+      "logoURI": "https://safe-transaction-assets.safe.global/tokens/logos/0x4d18815D14fe5c3304e87B3FA18318baa5c23820.png"
     }
   ]
 }
