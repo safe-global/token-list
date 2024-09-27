@@ -25,6 +25,14 @@
       "logoURI": "https://safe-transaction-assets.safe.global/tokens/logos/0x177127622c4A00F3d409B75571e12cB3c8973d3c.png"
     },
     {
+      "symbol": "EIGEN",
+      "name": "Eigenlayer Token",
+      "address": "0xec53bF9167f50cDEB3Ae105f56099aaaB9061F83",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://safe-transaction-assets.safe.global/tokens/logos/0xec53bF9167f50cDEB3Ae105f56099aaaB9061F83.png"
+    },
+    {
       "symbol": "SAFE",
       "name": "Safe Token",
       "address": "0x5afe3855358e112b5647b952709e6165e1c1eeee",
