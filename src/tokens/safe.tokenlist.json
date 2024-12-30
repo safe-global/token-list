@@ -81,12 +81,12 @@
       "logoURI": "https://safe-transaction-assets.safe.global/tokens/logos/0xcE11e14225575945b8E6Dc0D4F2dD4C570f79d9f.png"
     },
     {
-      "symbol": "cUSDCv3",
-      "name": "Compound USDC",
-      "address": "0xc3d688b66703497daa19211eedff47f25384cdc3",
+      "symbol": "cUSDC",
+      "name": "Compound USD Coin",
+      "address": "0x39aa39c021dfbae8fac545936693ac917d5e7563",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://safe-transaction-assets.safe.global/tokens/logos/0xc3d688B66703497DAA19211EEdff47f25384cdc3.png"
+      "logoURI": "https://safe-transaction-assets.safe.global/tokens/logos/0x39AA39c021dfbaE8faC545936693aC917d5E7563.png"
     },
     {
       "symbol": "aUSDC",
