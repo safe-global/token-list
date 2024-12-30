@@ -103,6 +103,14 @@
       "decimals": 18,
       "chainId": 100,
       "logoURI": "https://safe-transaction-assets.safe.global/tokens/logos/0x4d18815D14fe5c3304e87B3FA18318baa5c23820.png"
+    },
+    {
+      "symbol": "aBasUSDC",
+      "name": "Aave Base USDC",
+      "address": "0x4e65fE4DbA92790696d040ac24Aa414708F5c0AB",
+      "decimals": 6,
+      "chainId": 8453,
+      "logoURI": "https://safe-transaction-assets.safe.global/tokens/logos/0x4e65fE4DbA92790696d040ac24Aa414708F5c0AB.png"
     }
   ]
 }
