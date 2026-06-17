@@ -4,9 +4,13 @@
   "version": {
     "major": 1,
     "minor": 3,
-    "patch": 1
+    "patch": 2
   },
-  "keywords": ["default", "list", "safe"],
+  "keywords": [
+    "default",
+    "list",
+    "safe"
+  ],
   "tokens": [
     {
       "symbol": "COW",
@@ -111,6 +115,22 @@
       "decimals": 6,
       "chainId": 8453,
       "logoURI": "https://safe-transaction-assets.safe.global/tokens/logos/0x4e65fE4DbA92790696d040ac24Aa414708F5c0AB.png"
+    },
+    {
+      "symbol": "K9",
+      "name": "K9",
+      "address": "0xbc920c7Fa25D3Cd5606394aa4C6751d71DCb7930",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xbc920c7Fa25D3Cd5606394aa4C6751d71DCb7930/logo.png"
+    },
+    {
+      "symbol": "PUPCUP",
+      "name": "World Pup Coin",
+      "address": "0x884649f1fE3Bf3Ae0Bd720Eaf660cB561dcE39ef",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x884649f1fE3Bf3Ae0Bd720Eaf660cB561dcE39ef/logo.png"
     }
   ]
 }
