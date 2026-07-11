@@ -111,6 +111,14 @@
       "decimals": 6,
       "chainId": 8453,
       "logoURI": "https://safe-transaction-assets.safe.global/tokens/logos/0x4e65fE4DbA92790696d040ac24Aa414708F5c0AB.png"
+    },
+    {
+      "symbol": "tGBP",
+      "name": "Tokenised GBP",
+      "address": "0x27f6c8289550fce67f6b50bed1f519966afe5287",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://safe-transaction-assets.safe.global/tokens/logos/0x27f6c8289550fce67f6b50bed1f519966afe5287.png"
     }
   ]
 }
