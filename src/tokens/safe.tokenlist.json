@@ -1,10 +1,10 @@
 {
   "name": "SAFE",
-  "timestamp": "2024-01-25T11:00:00+00:00",
+  "timestamp": "2026-10-19T00:00:00+00:00",
   "version": {
     "major": 1,
-    "minor": 3,
-    "patch": 1
+    "minor": 4,
+    "patch": 0
   },
   "keywords": ["default", "list", "safe"],
   "tokens": [
@@ -111,6 +111,14 @@
       "decimals": 6,
       "chainId": 8453,
       "logoURI": "https://safe-transaction-assets.safe.global/tokens/logos/0x4e65fE4DbA92790696d040ac24Aa414708F5c0AB.png"
+    },
+    {
+      "symbol": "steakUSDG",
+      "name": "Steakhouse USDG",
+      "address": "0xBeEff033F34C046626B8D0A041844C5d1A5409dd",
+      "decimals": 18,
+      "chainId": 4663,
+      "logoURI": "https://safe-transaction-assets.safe.global/tokens/logos/0xBeEff033F34C046626B8D0A041844C5d1A5409dd.png"
     }
   ]
 }
