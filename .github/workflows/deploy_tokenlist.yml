@@ -44,10 +44,20 @@ jobs:
         run: |
           aws s3 sync src/tokens/ s3://${{ secrets.STAGING_BUCKET_NAME }}/releases/${{ github.event.release.tag_name }} --delete --cache-control max-age=0,no-cache,no-store,must-revalidate
 
+      - name: Generate promotions repo token
+        id: promotions_token
+        if: success() && startsWith(github.ref, 'refs/tags/v')
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+        with:
+          app-id: ${{ secrets.PROMOTIONS_APP_ID }}
+          private-key: ${{ secrets.PROMOTIONS_APP_PRIVATE_KEY }}
+          repositories: ${{ secrets.PROMOTIONS_REPO }}
+          permission-actions: write
+
       - name: "Prepare production deployment flow"
         if: success() && startsWith(github.ref, 'refs/tags/v')
         run: bash ./scripts/github/prepare_production_deployment.sh
         env:
-          PROD_DEPLOYMENT_HOOK_TOKEN: ${{ secrets.PROD_DEPLOYMENT_HOOK_TOKEN }}
-          PROD_DEPLOYMENT_HOOK_URL: ${{ secrets.PROD_DEPLOYMENT_HOOK_URL }}
+          GH_TOKEN: ${{ steps.promotions_token.outputs.token }}
+          PROMOTIONS_REPO: ${{ github.repository_owner }}/${{ secrets.PROMOTIONS_REPO }}
           VERSION_TAG: ${{ github.event.release.tag_name }}
