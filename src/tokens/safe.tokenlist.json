@@ -1,9 +1,9 @@
 {
   "name": "SAFE",
-  "timestamp": "2026-10-19T00:00:00+00:00",
+  "timestamp": "2026-10-20T00:00:00+00:00",
   "version": {
     "major": 1,
-    "minor": 4,
+    "minor": 5,
     "patch": 0
   },
   "keywords": ["default", "list", "safe"],
@@ -119,6 +119,14 @@
       "decimals": 18,
       "chainId": 4663,
       "logoURI": "https://cdn.morpho.org/v2/assets/images/steakhouse.svg"
+    },
+    {
+      "symbol": "USDN",
+      "name": "Nova USD",
+      "address": "0xeC747DAf41A4Ca4ebE72356592F8301924132907",
+      "decimals": 6,
+      "chainId": 1,
+      "logoURI": "https://novausd.xyz/usdn-icon.png"
     }
   ]
 }
